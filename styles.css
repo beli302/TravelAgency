@@ -1,0 +1,104 @@
+body{
+margin: 1px;
+padding: 10px;
+background-color: black;
+border: 1px solid white;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: aqua;
+}
+nav ul{
+    text-align: center;
+}nav>ul>li {
+    font-style: italic;
+    font-size: 25px;
+    display: inline;
+    padding: 30px; 
+}
+p{
+    font-size: 20px;
+    color: white;
+
+}
+.tropical{
+    color: #7dc410;
+    font-family: fantasy;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 6%;
+ }
+ .tropical>div>img{
+    padding-left: 10px;
+    
+} 
+.tropical ul li{
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.tropical>ul{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+}
+h1{
+    color: #f7325e;
+    text-align: center;
+}
+h2{
+    color: #f7325e;
+    font-family: fantasy;
+    text-align: center;
+}
+.popular{
+    color: #7dc410;
+    font-style: italic;
+    font-size: 25px;
+    padding: 10px;
+}
+.popular ol li{
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+}
+.popular ol{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.popular>div>img{
+    padding-left: 10px;
+}
+h3{
+    color: #f7325e;
+    font-family: fantasy;
+    font-size: 25px;
+    text-align-last: center;
+}
+.button{
+    position: absolute;
+    top:60%;
+    left: 60%;
+    transform: translate(-60%,-60%);
+}
+@media screen and (min-width:480px) and (max-width:1366px) {
+        nav{
+            position: fixed;
+            width: 100%;
+            background-color: aqua;
+        }
+        nav ul{
+            text-align: center;
+        }nav>ul>li {
+            font-style: italic;
+            font-size: 25px;
+            display: inline;
+            padding: 30px; 
+        }
+    }
+
