@@ -17,9 +17,13 @@ nav ul{
     display: inline;
     padding: 30px; 
 }
+/* .img{
+    padding-left: 700px;
+} */
 p{
     font-size: 20px;
     color: white;
+    text-align: center;
 
 }
 .tropical{
@@ -74,6 +78,26 @@ h2{
 .popular>div>img{
     padding-left: 10px;
 }
+.services{
+    color: #7dc410;
+    font-style: italic;
+    font-size: 25px;
+    padding: 10px;
+}
+.services ol li{
+    list-style: none;
+    overflow: hidden;
+    object-fit: cover;
+}
+.services ol{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.services>div>img{
+    padding-left: 10px;
+}
 h3{
     color: #f7325e;
     font-family: fantasy;
@@ -100,5 +124,12 @@ h3{
             display: inline;
             padding: 30px; 
         }
+    }
+    footer{
+        background-color: aqua;
+        width: 100%;
+    }
+    footer>div>p{
+        color: black
     }
 
